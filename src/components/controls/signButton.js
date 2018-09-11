@@ -15,6 +15,6 @@ export default () => {
             color: 'white',
             letterSpacing: '2px',
             userSelect: 'none'
-        }}>Sign in</button>
+        }}>Wizard</button>
     )
 }

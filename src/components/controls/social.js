@@ -1,10 +1,10 @@
 import React from 'react'
 
 import facebook from '../../resourses/social_facebook.svg';
-import linkedin from '../../resourses/social_in.svg';
-import instagram from '../../resourses/social_instagram.svg';
 import twitter from '../../resourses/social_twitter.svg';
-import youtube from '../../resourses/social_youtube.svg';
+import github from '../../resourses/social_github.svg';
+import medium from '../../resourses/social_medium.svg';
+import telegram from '../../resourses/social_telegram.svg';
 
 let socialIconStyle = {
     margin: '0 0.5em',
@@ -21,12 +21,12 @@ export default () => {
                 fontFamily: 'Din Pro Medium',
                 fontSize: '1.25rem',
                 marginRight: '1vw'
-            }}>Follow us</p>
-            <a style={socialIconStyle} target="blank" href="https://www.facebook.com"><img src={facebook} alt="facebook"/></a>
-            <a style={socialIconStyle} target="blank" href="https://www.linkedin.com"><img src={linkedin} alt="in"/></a>
-            <a style={socialIconStyle} target="blank" href="https://www.instagram.com"><img src={instagram} alt="instagram"/></a>
-            <a style={socialIconStyle} target="blank" href="https://www.youtube.com"><img src={youtube} alt="youtube"/></a>
+            }}>Something to read</p>
+            <a style={socialIconStyle} target="blank" href="https://www.github.com"><img src={github} alt="github"/></a>
             <a style={socialIconStyle} target="blank" href="https://www.twitter.com"><img src={twitter} alt="twitter"/></a>
+            <a style={socialIconStyle} target="blank" href="https://www.medium.com"><img src={medium} alt="medium"/></a>
+            <a style={socialIconStyle} target="blank" href="https://www.facebook.com"><img src={facebook} alt="facebook"/></a>
+            <a style={socialIconStyle} target="blank" href="https://www.telegram.com"><img src={telegram} alt="telegram"/></a>
         </div>
     )
 }

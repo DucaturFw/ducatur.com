@@ -12,7 +12,7 @@ export default class SideNavigation extends Component {
                     alignItems: 'flex-end'
                 }}>
                     <div onClick={() => document.querySelector('#city').scrollIntoView()} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
-                        <p style={{ fontSize: this.props.index === 0 ? '1.5rem' : '0.875rem', transition: 'font-size 0.3s' }}>CITY</p>
+                        <p style={{ fontSize: this.props.index === 0 ? '1.5rem' : '0.875rem', transition: 'font-size 0.3s' }}>USE CASES</p>
                         <hr style={{ width: '50px', border: '1px solid white', margin: '0 20px' }} />
                         <p style={{ fontSize: this.props.index === 0 ? '1.5rem' : '0.875rem', transition: 'font-size 0.3s' }}>01</p>
                     </div>

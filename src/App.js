@@ -64,7 +64,7 @@ class App extends Component {
 					<img src={logo} alt="logo" style={{maxHeight: '20vw'}}/>
 					<h1 style={{ marginLeft: '5vw' }}></h1>
 				</div>
-				<Navbar items={['Ducator', 'Ducator', 'Ducator', 'Ducator', 'Ducator', 'Ducator']} />
+				<Navbar items={[{title: 'Ducator', id: '#main'}, {title: 'Use cases', id: '#city'}, {title: 'Products', id: '#product'}, {title: 'Doctrine', id: '#doctrine'}]} />
 				<SideNavigation index={this.state.viewSection} />
 				<Main />
 				<City />

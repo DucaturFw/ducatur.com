@@ -13,29 +13,29 @@ export default class Doctrine extends Component {
                     <div style={{ marginTop: '6.5vh', textAlign: 'center' }}>{signButton()}</div>
                 </div>
                 <div style={{marginTop: window.innerWidth < 992 ? '20vh' : null, marginLeft: window.innerWidth > 576 ? '10vw' : null, padding: window.innerWidth < 568 ? '5vw' : null, flexBasis: window.innerWidth < 992 ? '100%' : '40%'}}>
-                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh'}}>
+                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>01 -</span>
-                        THE CONCEPT OF “TRUSTLESS” INTERACTION S THE BASIS. <br/> WE WANT BRING IT TO THE WORLD. 
+                        Trusting the people is not reliable. Trust code. <br/> Oracles are the gateway for our world there 
                     </p>
-                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh'}}>
+                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>02 -</span>
                         DISTERBUTED SYSTEMS ARE MUCH MORE FAIR THAN THE CENTRALIZED 
                     </p>
-                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh'}}>
+                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>03 -</span>
                         PRACTICE IS THE CONSEQUENCE OG THE THEORY. <br/>
 THERE IS ENOUGH THEORY IN THE BLOCKCHAIN SPHERE TO MOVE FORVARD 
                     </p>
-                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh'}}>
+                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>04 -</span>
                         IF BUSINESS WIDELY ACCEPTS THE IDEA, THE WORLD ACCEPTS THE IDEA. 
                     </p>
-                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh'}}>
+                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>05 -</span>
-                        BLOCKCHAIN THE SOCIAL TECHNOLOGY. <br/>
+                        BLOCKCHAIN IS THE SOCIAL TECHNOLOGY. <br/>
 THE CODE YOU CAN RELY ON.
                     </p>
-                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh'}}>
+                    <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>06 -</span>
                         CONNECTIVITY. FLEXIBILITY. CONVENIENCE
                     </p>

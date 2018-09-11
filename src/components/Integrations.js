@@ -40,11 +40,11 @@ export default class Integrations extends Component {
                     marginTop: '6vh',
                     display: 'flex',
                     flexWrap: 'wrap',
-                    alignItems: 'flex-end'
+                    alignItems: 'flex-start'
                 }}>
-                    {column(time, 'Time files', 'The world’s best imaging and design app is at the core of almost every creative project.')}
-                    {column(mail, 'Mail Fitness', 'Sketch is built for modern graphic designers, and it shows in every fibre of the app.')}
-                    {column(refresh, 'Refresh Button', 'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.')}
+                    {column(time, 'Secure', 'Decentralized distributed system is your guarantee in the digital era. We want to provide you with all the needed tools to make yourself or your company more resilient to the impact of the modern world.')}
+                    {column(mail, 'Flexible', 'List of the opportunities offered by the blockchain is very limited due to the puberty of the technology. We are opening a new ways for every community member to create and implement decentralization into their lives and businesses.')}
+                    {column(refresh, 'Trustless', 'From people to people is a basis of what we are doing. With Ducatur products you can bring a new type of services where users perfectly understand that the data provided belongs to them and they are safe from fraud. Code is the guarantee.')}
                 </div>
                 <div style={{marginTop: '6.5vh', textAlign: 'center'}}>
                     {signButton()}

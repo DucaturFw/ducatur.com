@@ -49,15 +49,24 @@ export default class Navbar extends Component {
                                 <line y1='24' y2='1' x2='25' style={{ stroke: 'rgb(255,255,255)', strokeWidth: 2 }} />
                             </svg>
                             <ul>
-                                {this.props.items.map((item, index) => <li onMouseEnter={() => this.setState({ hovered: index })} onMouseLeave={() => this.setState({ hovered: null })} key={index} style={{
+                                {this.props.items.map((item, index) => <a key={index} href={item.id}><li onMouseEnter={() => this.setState({ hovered: index })} onMouseLeave={() => this.setState({ hovered: null })} style={{
                                     padding: '2.3vh 1.5vw',
                                     margin: '0 1vw',
                                     fontFamily: 'Arame Bold',
                                     textTransform: 'uppercase',
                                     cursor: "pointer",
                                 }}>
-                                    {item}
-                                </li>)}
+                                    {item.title}
+                                </li></a>)}
+                                <li style={{
+                                padding: '2.3vh 1.5vw',
+                                margin: '0 1vw',
+                                fontFamily: 'Arame Bold',
+                                textTransform: 'uppercase',
+                                borderRadius: '35px',
+                                backgroundColor: '#FF3923',
+                                cursor: "pointer",
+                            }}>Wizard</li>
                             </ul>
                         </div>
                     </div>
@@ -78,7 +87,7 @@ export default class Navbar extends Component {
                             width: '100vw',
                             justifyContent: 'flex-end',
                         }}>
-                            {this.props.items.map((item, index) => <li onMouseEnter={() => this.setState({ hovered: index })} onMouseLeave={() => this.setState({ hovered: null })} key={index} style={{
+                            {this.props.items.map((item, index) => <a key={index} href={item.id}><li onMouseEnter={() => this.setState({ hovered: index })} onMouseLeave={() => this.setState({ hovered: null })} style={{
                                 padding: '2.3vh 1.5vw',
                                 margin: '0 1vw',
                                 fontFamily: 'Arame Bold',
@@ -88,8 +97,17 @@ export default class Navbar extends Component {
                                 cursor: "pointer",
                                 transition: 'background-color 0.3s'
                             }}>
-                                {item}
-                            </li>)}
+                                {item.title}
+                            </li></a>)}
+                            <li style={{
+                                padding: '2.3vh 1.5vw',
+                                margin: '0 1vw',
+                                fontFamily: 'Arame Bold',
+                                textTransform: 'uppercase',
+                                borderRadius: '35px',
+                                backgroundColor: '#FF3923',
+                                cursor: "pointer",
+                            }}>Wizard</li>
                         </ul>
                     </header>
                 )

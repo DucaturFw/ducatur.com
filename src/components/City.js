@@ -24,14 +24,14 @@ export default class City extends Component {
     }
 
     descriptions = [
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
-        'XD is made for fast, fluid UX design with innovative tools that eliminate speed bumps.',
+        'Decentralized exchanges is the most secure concept for the asset operations. Absence of the centralized management unit is your guarantee. Current implementations of dexes are slow, expensive and very questionable. Oracle system is a tool needed for such concept to work.',//stock
+        'One of the platforms we are widely using to place our products on is Ethereum. We consider it as a very perspective platform for the DAPP creation. A part of our multichain token will be placed in that network which will allow a wide audience to easily use it with the comfortable tools for them.',//etherium
+        'Smart-contracts can be used across whole modern financial system. Banking is not an exception. Trustless loans or deposits where bank going bankrupt or having a really bad mood can’t stop any process. Code is your security, Oracle is a kickstarter for such system.',//bank
+        'The first platform on which we have released our Oracles is EOSio. A powerful new generation blockchain with an impressive wideness of the development opportunities. Ducatur Oracles are ready to use there and we are not planning to stop. Also, this is a part of our multichain token.',//eos
+        'Our partnership with stocks allows us to bring their betting model into the crypto sphere. In synergy with crypto and stock price oracles we are creating an interesting financial tool. Moreover, Stox is a strategic partner for us with which we exchange the experience to create better products.',//stox
+        'Ducatur team is constantly increasing the knowledge base. Our RnD team constantly explores the market, finds new ways of upgrading the sphere and creates amazing products for the community to use. Constant self-modification is the key.',//research
+        'Gambling and betting can have a new life with a decentralized logic. Ducatur has already provided tools for that with EOS Oracles for crypto prices and random data. These spheres will become transparent and fair for every possible use, giving more prospects on self-regulation of the sphere.',//casino
+        'Modern education sphere has lots of problems. Online part of it is not rewarding for the teacher and in consequence is not so effective for the people seeking knowledge online. Decentralized systems can bring a new life to this sphere through avoiding the middlemen and bringing the transparency, as well as freedom of choice. Oracle is the essential part of it to work. ',//school
     ]
 
     componentDidMount() {
