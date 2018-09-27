@@ -99,7 +99,7 @@ export default class Navbar extends Component {
                             }}>
                                 {item.title}
                             </li></a>)}
-                            <li style={{
+                            {/* <li style={{
                                 padding: '2.3vh 1.5vw',
                                 margin: '0 1vw',
                                 fontFamily: 'Arame Bold',
@@ -107,7 +107,7 @@ export default class Navbar extends Component {
                                 borderRadius: '35px',
                                 backgroundColor: '#FF3923',
                                 cursor: "pointer",
-                            }}>Wizard</li>
+                            }}>Wizard</li> */}
                         </ul>
                     </header>
                 )
