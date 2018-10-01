@@ -30,12 +30,13 @@ export default class Main extends Component {
                     lineHeight: window.innerWidth < 576 ? '1' : '2',
                     position: 'relative',
                     zIndex: '5'
-                }}>DECENTRALIZING THR INTERACTION 
+                }}>DECENTRALIZING THE INTERACTION 
                 <br/> BETWEEN THE TECHNOLOGY AND THE WORLD</p>
-                <div id='signIn' style={{marginTop: '3.7vh', position: 'relative', zIndex: '5'}}>
+                {/* <div id='signIn' style={{marginTop: '3.7vh', position: 'relative', zIndex: '5'}}>
                     {signButton()}
-                </div>
-                <div style={{marginTop: '14.8vh', position: 'relative', zIndex: '5'}}>
+                </div> */}
+                {/* <div style={{marginTop: '14.8vh', position: 'relative', zIndex: '5'}}> */}
+                <div style={{marginTop: 'calc(18.5vh + 50px)', position: 'relative', zIndex: '5'}}>
                     {social()}
                 </div>
                 <img id='world' src={world} alt="world" style={{

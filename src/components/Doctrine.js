@@ -10,7 +10,7 @@ export default class Doctrine extends Component {
                 <div style={{ flexBasis: window.innerWidth < 992 ? '100%' : '40%', display: 'flex', justifyContent: 'center', alignContent: 'center', flexDirection: 'column' }}>
                     <img src={brand} alt="brand" style={{ height: '10vh', padding: '0 5px' }} />
                     <h1 style={{ fontFamily: 'Arame Regular', fontSize: '3rem', textAlign: 'center', textTransform: 'uppercase', width: '100%' }}>doctrine</h1>
-                    <div style={{ marginTop: '6.5vh', textAlign: 'center' }}>{signButton()}</div>
+                    {/* <div style={{ marginTop: '6.5vh', textAlign: 'center' }}>{signButton()}</div> */}
                 </div>
                 <div style={{marginTop: window.innerWidth < 992 ? '20vh' : null, marginLeft: window.innerWidth > 576 ? '10vw' : null, padding: window.innerWidth < 568 ? '5vw' : null, flexBasis: window.innerWidth < 992 ? '100%' : '40%'}}>
                     <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>

@@ -46,9 +46,9 @@ export default class Integrations extends Component {
                     {column(mail, 'Flexible', 'List of the opportunities offered by the blockchain is very limited due to the puberty of the technology. We are opening a new ways for every community member to create and implement decentralization into their lives and businesses.')}
                     {column(refresh, 'Trustless', 'From people to people is a basis of what we are doing. With Ducatur products you can bring a new type of services where users perfectly understand that the data provided belongs to them and they are safe from fraud. Code is the guarantee.')}
                 </div>
-                <div style={{marginTop: '6.5vh', textAlign: 'center'}}>
+                {/* <div style={{marginTop: '6.5vh', textAlign: 'center'}}>
                     {signButton()}
-                </div>
+                </div> */}
             </section>
         )
     }
