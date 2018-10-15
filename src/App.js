@@ -29,9 +29,15 @@ class App extends Component {
 	toVH = value => value / 1080 * 100 + 'vh'
 	toVW = value => value / 1920 * 100 + 'vw'
 
+	currentWidth = window.outerWidth
+
 	componentDidMount() {
-		document.querySelector('#figures').style.opacity = window.pageYOffset === 0 ? 0 : 1
-		document.querySelector('#navbar').style.opacity = window.pageYOffset === 0 ? 0 : 1
+		if (sessionStorage.getItem('firstLoad') === null) {
+			document.querySelector('#figures').style.opacity = 0
+			document.querySelector('#navbar').style.opacity = 0
+			document.querySelector('#main').style.opacity = 0
+			loader()
+		} 
 		document.addEventListener('scroll', () => {
 			let city = document.querySelector('#city')
 			let product = document.querySelector('#product')
@@ -41,10 +47,13 @@ class App extends Component {
 			if (window.innerHeight - product.getBoundingClientRect().top - window.innerHeight * 0.3 > 0 && this.state.viewSection !== 1) this.setState({ viewSection: 1 })
 			if (window.innerHeight - doctrine.getBoundingClientRect().top - window.innerHeight * 0.3 > 0 && this.state.viewSection !== 2) this.setState({ viewSection: 2 })
 		})
+		window.onresize = () => {
+			if (window.outerWidth != this.currentWidth) window.location.reload()
+		}
 		animateFigures(this.figuresRef.current.childNodes)
 
 		toggleSideBar(document.querySelector('#sideNav'))
-		window.pageYOffset === 0 ? window.onload = () => loader() : null
+		sessionStorage.setItem('firstLoad', 'false');
 	}
 
 	render() {
@@ -64,7 +73,7 @@ class App extends Component {
 					<img src={logo} alt="logo" style={{maxHeight: '20vw'}}/>
 					<h1 style={{ marginLeft: '5vw' }}></h1>
 				</div>
-				<Navbar items={[{title: 'Ducator', id: '#main'}, {title: 'Use cases', id: '#city'}, {title: 'Products', id: '#product'}, {title: 'Doctrine', id: '#doctrine'}]} />
+				<Navbar items={[{title: 'Ducatur', id: '#main'}, {title: 'Use cases', id: '#city'}, {title: 'Products', id: '#product'}, {title: 'Doctrine', id: '#doctrine'}]} />
 				<SideNavigation index={this.state.viewSection} />
 				<Main />
 				<City />

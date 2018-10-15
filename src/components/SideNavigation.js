@@ -4,7 +4,7 @@ export default class SideNavigation extends Component {
 
     render() {
         return (
-            <nav id="sideNav" style={{ display: window.innerWidth < 568 ? 'none' : 'block', position: 'fixed', top: '50%', opacity: 0, right: '0px', transform: 'translateY(-50%)', zIndex: '10', userSelect: 'none', }}>
+            <nav id="sideNav" style={{ display: window.innerWidth < 992 ? 'none' : 'block', position: 'fixed', top: '50%', opacity: 0, right: '0px', transform: 'translateY(-50%)', zIndex: '10', userSelect: 'none', }}>
                 <div style={{
                     fontFamily: 'Arame Regular',
                     display: 'flex',

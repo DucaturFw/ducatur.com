@@ -9,9 +9,6 @@ import scroll from './controls/scroll';
 import background from '../resourses/header.png'
 
 export default class Main extends Component {
-    componentDidMount() {
-        document.querySelector('#main').style.opacity = window.pageYOffset === 0 ? 0 : 1
-    }
 
     render() {
         return (
