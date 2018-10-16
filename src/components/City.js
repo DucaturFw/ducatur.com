@@ -54,7 +54,7 @@ export default class City extends Component {
 
     render() {
         return (
-            <section id='city' style={{ marginTop: '20vw', position: 'relative', textAlign: 'center', zIndex: '5' }}>
+            <section id='city' style={{ marginTop: '20vw', position: 'relative', textAlign: 'center' }}>
                 <ImageMapper src={city} map={this.city_map} height={window.innerWidth < 568 ? window.innerWidth : window.innerHeight * 1.3} strokeColor='red'
                     onClick={(area, index, event) => this.handleBuildingClick(event, index)}
                     onImageClick={() => this.setState({ show: false })}

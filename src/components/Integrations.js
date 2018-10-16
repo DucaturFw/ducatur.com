@@ -23,7 +23,8 @@ let column = (thumbnail, title, description) => <div style={{ flexBasis: window.
         textTransform: 'uppercase',
         textAlign: 'center',
         lineHeight: '1.5',
-        marginTop: '1vh'
+		marginTop: '1vh',
+		background: 'linear-gradient(rgba(16, 6, 64, 1) 0%, rgba(18, 3, 43, 0.2) 100%)' ,position: 'relative', zIndex: 10
     }}>{description}</p>
 </div>
 
