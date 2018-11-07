@@ -22,8 +22,7 @@ export default () => {
                 fontSize: '1.25rem',
                 marginRight: '1vw'
             }}>Something to read</p>
-            {/* <a style={socialIconStyle} target="blank" href="https://www.github.com"><img src={github} alt="github"/></a> */}
-            <a style={socialIconStyle} target="blank" href="https://t.me/ducatur"><img src={telegram} alt="telegram"/></a>
+            <a style={socialIconStyle} target="blank" href="https://tele.click/ducatur"><img src={telegram} alt="telegram"/></a>
             <a style={socialIconStyle} target="blank" href="https://twitter.com/ducatur"><img src={twitter} alt="twitter"/></a>
             <a style={socialIconStyle} target="blank" href="https://medium.com/ducatur"><img src={medium} alt="medium"/></a>
             <a style={socialIconStyle} target="blank" href="https://www.facebook.com/ducaturcom/"><img src={facebook} alt="facebook"/></a>
