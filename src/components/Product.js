@@ -58,19 +58,33 @@ export default class Product extends Component {
                     flexWrap: 'wrap',
                     alignItems: 'flex-start'
                 }}>
-                    {column('ORACLE WIZARD', <p style={descriptionStyle}>EOS and ETH oracles <br />
-                        for crypto and random data <br />
-                        EOS Github: <a style={descriptionLinkStyle} href="https://github.com/DucaturFw/ducor-eos" target='blank'>visit</a> <br />
-                        ETH Github: <a style={descriptionLinkStyle} href="https://github.com/DucaturFw/ducor-eth" target='blank'>visit</a> <br />
-                        Medium: <a style={descriptionLinkStyle} href="https://medium.com/ducatur/weve-been-preparing-our-oracles-platform-to-work-with-eosio-feel-free-to-test-and-use-it-9cc834d3172f" target='blank'>visit</a></p>)}
-                    {column('EOSIC', <p style={descriptionStyle}>
-                        Unofficial toolset for EOSio <br />
-                        Github: <a href="https://github.com/DucaturFw/eosic" style={descriptionLinkStyle} target='blank'>visit</a>
-                    </p>)}
-                    {column('DEPLOEOS', <p style={descriptionStyle}>Easy-to-use EOS contract deploy GUI <br />
-                        Github: <a href="https://github.com/DucaturFw/deploeos" target="_blank" style={descriptionLinkStyle}>visit</a></p>)}
-                    {column('NEO SCRIPT PARSER', <p style={descriptionStyle}>NEO module parsing TX scripts for inspection and debugging. <br />
-                        Github: <a href="https://github.com/ducaturfw/neo-script-parser" style={descriptionLinkStyle} target="blank">visit</a></p>)}
+                    {column('ORACLE WIZARD',
+                        <p style={descriptionStyle}>EOS and ETH oracles <br />
+                            for crypto and random data <br />
+                            EOS Github: <a style={descriptionLinkStyle} href="https://github.com/DucaturFw/ducor-eos" target='blank'>visit</a> <br />
+                            ETH Github: <a style={descriptionLinkStyle} href="https://github.com/DucaturFw/ducor-eth" target='blank'>visit</a> <br />
+                            Medium: <a style={descriptionLinkStyle} href="https://medium.com/ducatur/weve-been-preparing-our-oracles-platform-to-work-with-eosio-feel-free-to-test-and-use-it-9cc834d3172f" target='blank'>visit</a>
+                        </p>)}
+                    {column('Ducatur Court',
+                        <p style={descriptionStyle}>
+                            Medium: <a style={descriptionLinkStyle} href="https://medium.com/ducatur/law-systems-in-every-country-could-be-compared-to-some-kind-of-software-c093dbe2c1c6" target='blank'>visit</a><br/>
+                            Github: <a style={descriptionLinkStyle} href="https://github.com/DucaturFw/ducor-eth" target='blank'>visit</a>
+                        </p>)}
+                    {column('ColdCrypto',
+                        <p style={descriptionStyle}>
+                            Github: <a style={descriptionLinkStyle} href="https://github.com/DucaturFw?&q=cold" target='blank'>visit</a> <br />
+                            Medium: <a style={descriptionLinkStyle} href="https://medium.com/ducatur/how-many-hacks-have-you-observed-throughout-your-experience-in-crypto-435fb2043d1c" target='blank'>visit</a>
+                        </p>)}
+                    {column('duXI',
+                        <p style={descriptionStyle}>
+                            Github: <a style={descriptionLinkStyle} href="Github: https://github.com/DucaturFw&q=duxi" target='blank'>visit</a> <br />
+                        </p>)}
+                    {column('NEO Product Set',
+                        <p style={descriptionStyle}>
+                            Medium: <a style={descriptionLinkStyle} href="https://medium.com/ducatur/we-suppose-that-some-or-maybe-most-of-you-have-asked-themselves-these-questions-b084e7696e15" target='blank'>visit</a> <br/>
+                            ETH Github: <a style={descriptionLinkStyle} href="https://github.com/neo-project/proposals/pull/71" target='blank'>visit</a>
+                        </p>)}
+
                 </div>
             </section>
         )
