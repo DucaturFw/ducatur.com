@@ -19,12 +19,12 @@ export default class Doctrine extends Component {
                     </p>
                     <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>02 -</span>
-                        DISTERBUTED SYSTEMS ARE MUCH MORE FAIR THAN THE CENTRALIZED 
+                        DISTRIBUTED SYSTEMS ARE MUCH MORE FAIR THAN THE CENTRALIZED 
                     </p>
                     <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>03 -</span>
-                        PRACTICE IS THE CONSEQUENCE OG THE THEORY. <br/>
-THERE IS ENOUGH THEORY IN THE BLOCKCHAIN SPHERE TO MOVE FORVARD 
+                        PRACTICE IS THE CONSEQUENCE OF THE THEORY. <br/>
+THERE IS ENOUGH THEORY IN THE BLOCKCHAIN SPHERE TO MOVE FORWARD 
                     </p>
                     <p style={{lineHeight: '1.5', fontFamily: 'Din Pro Medium', fontSize: '1.125rem', marginBottom: '2.7vh', textTransform: 'uppercase'}}>
                         <span style={{display: 'block', fontFamily: 'Arame Regular', fontSize: '1.5rem', marginBottom: '1vh'}}>04 -</span>
